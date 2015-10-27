@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+.listView{
+	margin:14px;
+}
+
+.time{
+	float:right;
+	font-size:9px;
+}
+
+.nick{
+	font-weight:bold;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+.msg{
+	font-size: 11px;
+	color:#999;
+}
+
+
+.invisibleMsg{
+		visibility: hidden;
+		display: none;
+	}
+
+.emailText{
+	font-size: 13px;
+	color:#000;
+	font-family: "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+.upperDiv{
+		margin: 10px;
+	}
+
+.smsOuter{
+	width:100%;
+}
+
+#chatBox .list-group-item:hover{
+	background-color: #DADFE1;
+	cursor: pointer;
+}
